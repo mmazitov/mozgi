@@ -18,21 +18,21 @@
         :class="{ 'visible': isHovered }"
         :style="{ transitionDelay: '0s' }"
       >
-        <AppLink text="ENG" class="relative"/>
+        <AppLink text="ENG" url="#" class="relative"/>
       </li>
       <li
         class="lang-item"
         :class="{ 'visible': isHovered }"
         :style="{ transitionDelay: '.2s' }"
       >
-        <AppLink text="RU" class="relative"/>
+        <AppLink text="RU" url="#"  class="relative"/>
       </li>
       <li
         class="lang-item"
         :class="{ 'visible': isHovered }"
         :style="{ transitionDelay: '.4s' }"
       >
-        <AppLink text="UA" class="relative"/>
+        <AppLink text="UA" url="#"  class="relative"/>
       </li>
     </ul>
     <button class="flex justify-center items-center border-[1px] border-[rgba(255,255,255,0.12)] rounded-full w-[38px] h-[38px] pointer-events-auto">
