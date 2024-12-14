@@ -3,10 +3,10 @@
     class="top-[50%] left-[50%] absolute transform translate-x-[-50%] translate-y-[-50%]"
     :style="rotateStyle"
   >
-    <p class="w-[101%] text-[28px] text-[transparent] md:text-[42px] xl:text-[52px] giga-bold_italic leading-[31px] md:leading-[46px] xl:leading-[57px] transform animate-left-to-right">
+    <p class="opacity-10 w-[101%] text-[28px] text-[transparent] md:text-[42px] xl:text-[52px] giga-bold_italic leading-[31px] md:leading-[46px] xl:leading-[57px] transform animate-left-to-right">
       FULL-CYCLE EVENT AGENCY FULL-CYCLE EVENT AGENCY
     </p>
-    <p class="w-[101%] text-[28px] text-[transparent] md:text-[42px] xl:text-[52px] giga-bold_italic leading-[31px] md:leading-[46px] xl:leading-[57px] transform animate-right-to-left">
+    <p class="opacity-10 w-[101%] text-[28px] text-[transparent] md:text-[42px] xl:text-[52px] giga-bold_italic leading-[31px] md:leading-[46px] xl:leading-[57px] transform animate-right-to-left">
       FULL-CYCLE EVENT AGENCY FULL-CYCLE EVENT AGENCY
     </p>
   </div>
