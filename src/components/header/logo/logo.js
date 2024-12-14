@@ -99,8 +99,8 @@ function letterM() {
 
 function letterO() {
   const outerStartX = 27;
-  const outerStartY = 0;
-  const outerEndY = 37;
+  const outerStartY = 1;
+  const outerEndY = 38;
   const outerEndX = 42;
 
   const outerPath = new Path2D();
