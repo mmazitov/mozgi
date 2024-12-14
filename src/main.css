@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'grtsk_giga-bold_italic';
+	src: url('@/assets/fonts/grtsk-giga/grtskgiga-bolditalic-webfont.eot');
+	src: url('@/assets/fonts/grtsk-giga/grtskgiga-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('@/assets/fonts/grtsk-giga/grtskgiga-bolditalic-webfont.woff2') format('woff2'),
+			 url('@/assets/fonts/grtsk-giga/grtskgiga-bolditalic-webfont.woff') format('woff'),
+			 url('@/assets/fonts/grtsk-giga/grtskgiga-bolditalic-webfont.svg#grtsk_gigabold_italic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'grtsk_giga-regular';
+	src: url('@/assets/fonts/grtsk-giga/grtskgiga-regular-webfont.eot');
+	src: url('@/assets/fonts/grtsk-giga/grtskgiga-regular-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('@/assets/fonts/grtsk-giga/grtskgiga-regular-webfont.woff2') format('woff2'),
+			 url('@/assets/fonts/grtsk-giga/grtskgiga-regular-webfont.woff') format('woff'),
+			 url('@/assets/fonts/grtsk-giga/grtskgiga-regular-webfont.svg#grtsk_gigaregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'grtsk_giga-bold';
+	src: url('@/assets/fonts/grtsk-giga/grtskgiga-bold-webfont.eot');
+	src: url('@/assets/fonts/grtsk-giga/grtskgiga-bold-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('@/assets/fonts/grtsk-giga/grtskgiga-bold-webfont.woff2') format('woff2'),
+			 url('@/assets/fonts/grtsk-giga/grtskgiga-bold-webfont.woff') format('woff'),
+			 url('@/assets/fonts/grtsk-giga/grtskgiga-bold-webfont.svg#grtsk_gigabold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.giga-regular {
+font-family: 'grtsk_giga-regular';
+}
+
+.giga-bold {
+font-family: 'grtsk_giga-bold';
+}
+
+.giga-bold_italic {
+font-family: 'grtsk_giga-bold_italic';
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#app {
+	height: 100vh;
+	font-family: 'grtsk_giga-regular';
+}
+
+body {
+	overflow-x: hidden;
+	background: #BEBEBE;
+}
